@@ -27,7 +27,7 @@ const List: FC = () => {
 
   return (
     <section className="h-[80vh] flex justify-center items-center">
-      <ul className="grid grid-cols-4 gap-5 h-[80vh] w-[80vw] pr-2 overflow-y-auto overflow-x-hidden scrollbar scrollbar-thumb-gray-300 scrollbar-track-inherit">
+      <ul className="grid grid-cols-4 gap-5 max-h-[80vh] w-[80vw] mb-auto pr-2 overflow-y-auto overflow-x-hidden scrollbar scrollbar-thumb-gray-300 scrollbar-track-inherit">
         {list.map((data, index) => (
           <Card
             animate={animate}
